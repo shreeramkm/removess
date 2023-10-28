@@ -1,0 +1,14 @@
+package Dailyprojects;
+import java.util.Scanner;
+
+public class remove {
+public static void main(String args[]) {
+	Scanner sc=new Scanner(System.in);
+	String z=sc.nextLine();
+	for (int i=0;i<z.length();i++) {
+		if(z.charAt(i)!='s') {
+		System.out.print(z.charAt(i));
+	}
+	}
+}
+}
